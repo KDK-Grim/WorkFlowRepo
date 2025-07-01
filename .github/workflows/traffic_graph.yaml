@@ -26,10 +26,6 @@ jobs:
           REPO: statikfintechllc/AscendAI
         run: |
           python .github/scripts/fetch_traffic.py
-
-      - uses: actions/checkout@v4
-        with: 
-          persist-credentials: false
       
       - name: Set up PAT-based push auth
         run: |
