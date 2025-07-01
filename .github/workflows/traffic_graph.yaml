@@ -1,5 +1,8 @@
 name: Update Traffic Graph
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "*/5 * * * *"
@@ -11,31 +14,27 @@ jobs:
     steps:
       - name: Checkout WorkFlowRepo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install requests matplotlib
 
       - name: Fetch traffic from AscendAI
         env:
           PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
           REPO: statikfintechllc/AscendAI
-        run: |
-          python .github/scripts/fetch_traffic.py
-      
-      - name: Set up PAT-based push auth
+        run: python .github/scripts/fetch_traffic.py
+
+      - name: Commit & push graph changes
         run: |
           git config --global user.name "gremlin-bot"
           git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.PAT_GITHUB }}@github.com/statikfintechllc/WorkFlowRepo.git
-
-      - name: Commit and push graph changes
-        run: |
           git add docs/graph/
-          git diff --cached --quiet || git commit -m "Update traffic data and graph"
-          git pull --rebase
+          git commit -m "Update traffic data and graph" || echo "No changes to commit"
           git push
