@@ -11,7 +11,8 @@ REPOS = [
     "statikfintechllc/Mobile-Developer",
     "statikfintechllc/AscendDocs-of-GovSeverance",
     "statikfintechllc/GodCore",
-    "statikfintechllc/AscendNet"
+    "statikfintechllc/AscendNet",
+    "statikfintechllc/WorkFlowRepo"
 ]
 
 stats = []
