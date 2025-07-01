@@ -1,4 +1,21 @@
+<link rel="stylesheet" type="text/css" href="custom.css">
+<div align="center">
+  <img  
+	  src="https://raw.githubusercontent.com/statikfintechllc/WorkFlowRepo/master/docs/ticker-bot/ticker.gif" 
+  alt="Repo Ticker Stats" 
+  style="height:33px;" />
+  <div align="center">
+  <img  
+	  src="https://img.shields.io/github/stars/statikfintechllc/WorkFlowRepo?style=social" alt="Stars"/>
+  <img  
+	  src="https://img.shields.io/github/forks/statikfintechllc/WorkFlowRepo?style=social" alt="Forks"/>
+  <img  
+	  src="https://img.shields.io/github/last-commit/statikfintechllc/WorkFlowRepo?style=social" alt="Last Commit"/>
+</div>
+  
 # WorkFlowRepo
+
+</div>
 
 > [!CAUTION]
 >
