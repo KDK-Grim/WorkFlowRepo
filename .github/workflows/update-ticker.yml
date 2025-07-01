@@ -56,10 +56,6 @@ jobs:
       - name: Generate banner
         run: node docs/ticker-bot/generate_banner.js
       
-      - uses: actions/checkout@v4
-        with: 
-          persist-credentials: false
-      
       - name: Set up PAT-based push auth
         run: |
           git config --global user.name "gremlin-bot"
