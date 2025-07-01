@@ -16,10 +16,14 @@ cd WorkFlowRepo \ &&
 ls \ &&
 cd .github/workflows \ &&
 ls \ &&
-cd .. && cd docs/ticker-bot \ &&
+cd .. && cd .. \ &&
+cd docs \ &&
 ls \ &&
-cd .. && cd graph \ &&
-ls && cd ..
+cd ticker-bot \ &&
+ls && cd .. \ &&
+cd graph \ &&
+ls \ &&
+cd .. && cd ..
 ```
 
 ### That Installs, and Displays in terminal *ALL* folder content.
