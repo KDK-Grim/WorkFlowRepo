@@ -29,7 +29,7 @@ jobs:
         env:
           PAT_GITHUB: ${{ secrets.PAT_GITHUB }}
           REPO: statikfintechllc/AscendAI
-        run: python .github/scripts/fetch_traffic.py
+        run: python ./docs/graph/fetch_traffic.py
 
       - name: Commit & push graph changes
         run: |
