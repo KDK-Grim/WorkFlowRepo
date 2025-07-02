@@ -30,7 +30,10 @@
 Use:
 
 ```bash
-git clone https://github.com/statikfintechllc/WorkFlowRepo.git \ &&
+# Clone the repo
+git clone https://github.com/statikfintechllc/WorkFlowRepo.git
+
+# Auto displays all internals
 cd WorkFlowRepo \ &&
 ls \ &&
 cd .github/workflows \ &&
