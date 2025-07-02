@@ -32,19 +32,17 @@ Use:
 ```bash
 # Clone the repo
 git clone https://github.com/statikfintechllc/WorkFlowRepo.git
-
-# Auto displays all internals
-cd WorkFlowRepo \ &&
-ls \ &&
-cd .github/workflows \ &&
-ls \ &&
-cd .. && cd .. \ &&
-cd docs \ &&
-ls \ &&
-cd ticker-bot \ &&
-ls && cd .. \ &&
-cd graph \ &&
-ls \ &&
+cd WorkFlowRepo
+ls
+cd .github/workflows
+ls
+cd .. && cd ..
+cd docs
+ls
+cd ticker-bot
+ls && cd ..
+cd graph
+ls
 cd .. && cd ..
 ```
 
