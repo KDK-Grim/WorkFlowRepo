@@ -128,6 +128,11 @@ REPOS = [
 ---
 
 <div align="center">
+
+The Ticker-Bot
+
+ ---
+
   <img  src="https://raw.githubusercontent.com/statikfintechllc/WorkFlowRepo/master/docs/ticker-bot/ticker.gif" 
   alt="Repo Ticker Stats" 
   style="height:33px;" />
@@ -136,6 +141,11 @@ REPOS = [
 ---
 
 <div align="center">
+
+The Graph
+
+ ---
+ 
   <a href="https://raw.githubusercontent.com/statikfintechllc/AscendAI/master/About US/">
   <img src="https://raw.githubusercontent.com/statikfintechllc/WorkFlowRepo/master/docs/graph/traffic_graph.png" alt="Traffic Graph" />
 </div>
