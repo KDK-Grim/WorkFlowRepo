@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="custom.css">
 <div align="center">
   <img  
-	  src="https://raw.githubusercontent.com/statikfintechllc/WorkFlowRepo/master/docs/ticker-bot/ticker.gif" 
+	  src="https://raw.githubusercontent.com/KDK-Grim/WorkFlowRepo-Mirror/master/docs/ticker-bot/ticker.gif" 
   alt="Repo Ticker Stats" 
   style="height:33px;" />
   <div align="center">
@@ -147,7 +147,7 @@ The Graph
  ---
  
   <a href="https://raw.githubusercontent.com/statikfintechllc/AscendAI/master/About US/">
-  <img src="https://raw.githubusercontent.com/statikfintechllc/WorkFlowRepo/master/docs/graph/traffic_graph.png" alt="Traffic Graph" />
+  <img src="https://raw.githubusercontent.com/KDK-Grim/WorkFlowRepo-Mirror/master/docs/graph/traffic_graph.png" alt="Traffic Graph" />
 </div>
 
 </details>
