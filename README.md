@@ -118,6 +118,7 @@ on:
   schedule:
     - cron: "*/5 * * * *"
 ```
+
 ### Inside docs/ticker-bot/fetch_stats.py, Update lines 9-16:
 
 ```python
