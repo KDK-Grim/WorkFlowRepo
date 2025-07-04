@@ -103,6 +103,21 @@ REPO: statikfintechllc/AscendAI
 
 ## 🗃️ Files to Modify:
 
+### Inside .github/workflows in both .yml change:
+
+```yml
+on:
+  schedule:
+  #  - cron: "*/5 * * * *"
+```
+
+**To:**
+
+```yml
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+```
 ### Inside docs/ticker-bot/fetch_stats.py, Update lines 9-16:
 
 ```python
