@@ -155,6 +155,7 @@ The Ticker-Bot
 
  ---
 
+  <a href="https://raw.githubusercontent.com/statikfintechllc/AscendAI/master/About US/">
   <img  src="https://raw.githubusercontent.com/statikfintechllc/WorkFlowRepo/master/docs/ticker-bot/ticker.gif" 
   alt="Repo Ticker Stats" 
   style="height:33px;" />
